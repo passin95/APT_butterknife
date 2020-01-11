@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
+
+dependencies {
+    api rootProject.ext.annotations
+
+//    implementation 'org.aspectj:aspectjtools:1.9.4'
+}

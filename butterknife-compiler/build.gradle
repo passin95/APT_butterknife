@@ -1,0 +1,12 @@
+apply plugin: 'java-library'
+
+sourceCompatibility = JavaVersion.VERSION_1_7
+targetCompatibility = JavaVersion.VERSION_1_7
+
+dependencies {
+//    implementation 'com.google.auto.service:auto-service:+'
+    implementation 'com.squareup:javapoet:1.11.1'
+    implementation 'com.google.auto:auto-common:0.10'
+    implementation project(':butterknife-annotations')
+}
+
